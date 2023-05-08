@@ -464,6 +464,7 @@ footer {
 .section_foot {
     display: flex;
     align-items: baseline;
+    justify-content: space-between;
 }
 
 /* .foot {
@@ -762,11 +763,13 @@ footer {
     border-color: #2196F3;
     outline: none;
 }
+.modal-form label{
+    display: block;
+    margin-bottom: 10px;
+}
 
 .modal-form .span {
     position: relative;
-    display: block;
-    margin-bottom: 10px;
 }
 
 .modal-form svg {
